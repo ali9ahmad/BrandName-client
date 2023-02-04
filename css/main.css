@@ -1,0 +1,421 @@
+/**** CORE SECTION STYLE START ****/
+
+
+body {
+    margin: 0;
+    /* background-color: #C0C0C0; */
+    /* background-color: #B9EAA8; */
+}
+
+.container{
+    width: 1076px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* background-color: red; */
+    /* border: 3px solid blue; */
+}
+
+
+/**** CORE SECTION STYLE START ****/
+
+/* ----------------------------------------------------- */
+
+/**** SITE HEADER STYLEs START ****/
+
+.site-header {
+    /* background-color: orange; */
+    background-color: #B9EAA8;
+
+}
+
+.site-header__wrapper {
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+    padding-top: 19px;
+    padding-bottom: 20px;
+}
+            
+.site-header__logo {
+    display: inline-block;
+    margin-right: 76px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    color: #252B42;    
+    /* background-color: orange; */
+
+}
+
+.sitenav {
+    width: 815px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: orange; */
+}
+
+.sitenav__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    /* background-color: #d2691e	; */
+}
+
+.sitenav__item:not(:last-child){ 
+    margin-right: 21px;
+    /* background-color: #ff7f50; */
+}
+
+.sitenav__link {
+    /* background-color: #6495ed; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color: #737373;
+}
+
+.sitenav__registerslist {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+    /* background-color: #dc143c; */
+}
+
+.sitenav__login:not(:last-child){
+    margin-right: 45px;
+}
+
+/* .sitenav__login--link,
+.sitenav__login--linkbtn {
+    background-color: #6495ed ;
+} */
+
+.sitenav__login--link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color: #23A6F0;
+}
+
+.sitenav__login--linkbtn {
+    padding-top: 15px;
+    padding-right: 52px;
+    padding-bottom: 15px;
+    padding-left: 25px;    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #23A6F0;
+    border-radius: 5px;
+}
+/**** SITE HEADER STYLEs START ****/
+
+/************ MAIN SECTION START  *******/
+
+/* .site-main { */
+    /* background-color: red; */
+    /* height: 100px; */
+/* } */
+
+.hero {
+    /* background-color: yellow; */
+    padding-top: 93px;
+    background-color: #B9EAA8;
+}
+
+.hero__desc {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* background-color: green; */
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.hero__desc--link   {
+    margin-bottom: 40px;
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #23A6F0;
+    text-decoration: none;
+    /* background-color: purple; */
+}
+
+.hero__desc--title {
+    width: 542px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    /* background-color: grey; */
+
+} 
+
+.hero__desc--text {
+    width: 530px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    font-family: 'Montserrat';
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    /* background-color: orange; */
+}
+
+.hero__desc__linkJoin {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 15px 40px;
+    font-family: 'Montserrat';
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background: #23A6F0;
+    border-radius: 5px;
+    /* background-color: #f0e68c; */
+}
+
+.hero__desc__linklearn {
+    padding: 15px 40px;
+    font-family: 'Montserrat';
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color: #23A6F0;
+    /* background-color: #fafad2; */
+    border: 1px solid #23A6F0;
+    border-radius: 5px;  
+}
+
+/***** HERO PRODUCTS STYLES START ******/
+
+.hero__pruducts {
+    width: 100%;
+    /* background-color: yellow; */
+    /* margin-bottom: 68px; */
+    padding-bottom: 68px;
+}
+
+.hero__products-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;    
+    /* background-color: orange; */
+}
+
+.hero__products__item {
+    /* display: inline-block; */
+    /* background-color: green; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    padding-top: 47px;
+    padding-right: 40px;
+    padding-bottom: 35px;
+    padding-left: 40px;
+    /* padding: 35px 40px; */
+    width: 328px;
+    /* height: 288px; */
+    background: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.hero__products__item:not(:last-child){
+    margin-right: 30px;
+}
+
+.hero__products--images {
+    /* background-color: blue; */
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+    margin-bottom: 32px;
+}
+
+.hero__products--title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    /* background-color: brown; */
+}
+
+.hero__products--line {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #E74040;
+}
+
+.hero__products--des {
+    /* display: inline-block; */
+    margin-top: 0;
+    margin-bottom: 0;
+    /* margin-bottom: 35px; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    /* background-color: brown; */
+}
+
+/***** /HERO PRODUCTS STYLES END ******/
+/* ---------------------------------------------- */
+/* ABOUT SECTION STYLES START */
+
+.about__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.about__image {
+    width: 508px;
+    height: 441px;
+    display: inline-block;
+    margin-right: 156px;
+}
+
+.about__desc {
+    width: 405px;
+}
+
+.about__desc--line {
+    width: 94px;
+    height: 7px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 35px;
+    margin-left: 0;        
+    background-color    : #E74040;
+}
+
+.about__desc--title {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 35px;
+    margin-left: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.about__desc--text {
+    width: 345px;
+    height: 60px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 35px;        
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.about__desc--link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+}
+
+/* /ABOUT SECTION STYLES END */
+
+
+
+/************ /MAIN SECTION END  *******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
